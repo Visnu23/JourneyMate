@@ -1,0 +1,213 @@
+.header{
+    background-color: #ff9800;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 10px 0px;
+}
+
+.headerList{
+    display: flex;
+    gap: 10px;
+}
+
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* .Btn.active{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius: 30px;
+} */
+
+.headerDes{
+    margin: 20px 0px;
+}
+
+.headerBtn{
+    background-color: #ffd54f;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: 150ms ease;
+    width: 125px;
+    height: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+.headerBtn:hover{
+    background-color:rgb(238, 193, 60);
+}
+
+.Btn{
+    background-color: #ff9800;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 40px; 
+    padding-left: 20px;
+}
+.Btn.a:hover{
+    background-color: #ffd54f;
+}
+
+.headerListItem.wheels{
+    text-align: center;
+}
+
+.headerListItem.active.hotel{
+    background-color: #ff9800;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.headerListItem.active.hotel:hover{
+    background-color: #ffd54f;
+}
+
+.searchBar{
+    float: right;
+    margin: auto;
+    height: 30px;
+    width: 192px;
+    background-color:floralwhite;
+    border: 3px solid skyblue;
+    text-align: center;
+    border-radius: 10px;
+
+   
+}
+
+.calendar{
+    float: right;
+    margin: auto;
+    height: 30px;
+    width: 192px;
+    background-color:floralwhite;
+    border: 3px solid skyblue;
+    border-top: none;
+    margin-left: 40%;
+    border-radius: 10px;
+    
+}
+
+.persons{
+    float: right;
+    margin: auto;
+    height: 30px;
+    width: 192px;
+    background-color:floralwhite;
+    border: 3px solid skyblue;
+    margin-left: 10%;
+    border-top: none;
+    text-align:start;
+    border-radius: 10px;
+    
+}
+
+.searchbtn{
+    margin-left: 80%;
+    margin-bottom: 10%;
+    height: 30px;
+    background-color: #ffd54f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 450;
+    cursor: pointer;
+    transition: 150ms ease;
+}
+.searchbtn:hover{
+    background-color:rgb(238, 193, 60);
+}
+
+
+.headerSearch{
+    float:right;
+    
+}
+.sicon{
+    color: #ffd54f;
+}
+.sinput{
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.cal{
+    color:grey;
+    cursor: pointer;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size:small;
+}
+.person{
+    color: gray;
+    cursor: pointer;
+    padding-left: 25px;
+    font-weight: 600;
+    font-size: small;
+}
+
+.date{
+    position: absolute;
+    margin-right: 150px;
+    margin-top: 10px;
+    left: 610px;
+    z-index: 2;
+
+}
+
+.options{
+    position: absolute;
+    left: 753px;
+    margin-bottom: 35px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+}
+
+.optionItem{
+    width:200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+.optionCounterBtn{
+    width: 30px;
+    height:30px;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    cursor: pointer;
+    background-color: white;
+
+}
+.optionCounterBtn:disabled{
+    cursor: not-allowed;
+}

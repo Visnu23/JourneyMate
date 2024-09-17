@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.deb526c6.css",
+    "main.js": "/static/js/main.9147e3ec.js",
+    "static/js/453.405dd865.chunk.js": "/static/js/453.405dd865.chunk.js",
+    "static/media/hero_img.png": "/static/media/hero_img.369d9732a9d0bd3637c3.png",
+    "static/media/lounge-1.jpg": "/static/media/lounge-1.50543ec508f1d6720637.jpg",
+    "static/media/about_img.png": "/static/media/about_img.b1dc694d353c87b2ca57.png",
+    "static/media/car-1.png": "/static/media/car-1.d6cc42da12e552d792cc.png",
+    "static/media/car-2.png": "/static/media/car-2.2e2348edc8de8670ff35.png",
+    "static/media/car-5.png": "/static/media/car-5.0348f3ffb3c4f923f656.png",
+    "static/media/car-3.png": "/static/media/car-3.bcdec6117902107e7108.png",
+    "static/media/car-6.png": "/static/media/car-6.14736a370054f63bbc4c.png",
+    "static/media/car-4.png": "/static/media/car-4.8d3f2a5391cfd4fe2da3.png",
+    "static/media/plan-1.jpg": "/static/media/plan-1.a9b542c93865c0b966a3.jpg",
+    "static/media/lounge-2.jpg": "/static/media/lounge-2.51d44c0b922347d54efb.jpg",
+    "static/media/plan-2.jpg": "/static/media/plan-2.c893533d8db429edb263.jpg",
+    "static/media/plan-3.jpg": "/static/media/plan-3.964fdc21501820c96250.jpg",
+    "index.html": "/index.html",
+    "main.deb526c6.css.map": "/static/css/main.deb526c6.css.map",
+    "main.9147e3ec.js.map": "/static/js/main.9147e3ec.js.map",
+    "453.405dd865.chunk.js.map": "/static/js/453.405dd865.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deb526c6.css",
+    "static/js/main.9147e3ec.js"
+  ]
+}
