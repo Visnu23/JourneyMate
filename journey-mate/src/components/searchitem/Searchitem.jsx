@@ -9,7 +9,7 @@ const Searchitem = () => {
 
   useEffect(() => {
     axios
-      .get("https://journey-mate-backend.onrender.com/api/products")
+      .get("https://journey-mate-2va0.onrender.com/api/products")
       .then((response) => {
         setProducts(response.data);
       })
