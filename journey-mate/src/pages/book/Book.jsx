@@ -11,7 +11,7 @@ export default function ReservationForm() {
     const onSubmit = async (data) => {
         console.log('Form Data:', data);
         try {
-            const response = await axios.post('https://journey-mate-backend.onrender.com/api/reservations/add', data);
+            const response = await axios.post('https://journey-mate-2va0.onrender.com/api/reservations/add', data);
             console.log('Response:', response.data);
             alert('Reservation made successfully!');
             reset();
