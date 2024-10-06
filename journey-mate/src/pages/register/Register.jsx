@@ -16,7 +16,7 @@ export default function Form() {
             if (action === "Sign Up") {
                 // Handle registration
                 console.log('Registration request body:', data);
-                const response = await axios.post('https://journey-mate-2va0.onrender.com/api/users/add', data);
+                const response = await axios.post('http://localhost:5000/api/users/add', data);
                 console.log('Registration response:', response.data);
                 alert('Registered successfully');
                 navigate('/');
@@ -27,7 +27,7 @@ export default function Form() {
                     password: data.password,
                 };
                 console.log('Login request body:', loginData);
-                const response = await axios.post('https://journey-mate-2va0.onrender.com/api/users/login', loginData);
+                const response = await axios.post('http://localhost:5000/api/users/login', loginData);
                 console.log('Login response:', response.data);
                 alert('Logged in successfully');
                 navigate('/book');
